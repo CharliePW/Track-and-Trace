@@ -1,0 +1,146 @@
+#watermark {
+    margin-top: 3%;
+    position: fixed;
+    width: 50%;
+    top: 18%;
+    left: 34%;
+    object-fit: cover;
+    display: inline-block;
+    opacity: 15%;
+    z-index: -1;
+}
+
+h1 {
+    font: bold 40pt Arial;
+    margin-left:-5%;
+    margin-right: -10%;
+    margin-top: -1%;
+    padding: 22px 0px 22px 0px;
+    text-align: center;
+    background-color: rgb(173,185,202);
+}
+
+#loginpage {
+    text-align: center;
+}
+
+input {
+   border-width: thin;
+   border-color: black;
+   font: 20pt 'Times New Roman';
+   background-color: transparent;
+   text-align: center;
+   padding: 10px 180px 10px 180px;
+}
+
+::placeholder {
+    font: 24px 'Times New Roman';
+    color: black;
+}
+
+button {
+    border-width: thin;
+    border-radius: 8px;
+    padding: 10px 120px 10px 120px;
+    background-color: white;
+    font: 20pt 'Times New Roman';
+    text-align: center;
+}
+
+#registration_page {
+    text-align: center;
+}
+
+.sidebar {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: rgb(173,185,202);
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+  
+.sidebar a {
+    padding: 13px 8px 13px 16px;
+    text-align: center;
+    text-decoration: none;
+    font: 24pt Arial;
+    color: black;
+    display: block;
+}
+  
+.sidebar a:hover {
+    background-color: rgb(132,151,176);
+}
+
+.main {
+    margin-left: 240px;
+    font: 20pt 'Times New Roman';
+}
+
+hr {
+    height: 6px;
+    background-color: black;
+    width: 90%;
+}
+
+.exeter {
+    position: absolute;
+    margin-left: 33%;
+}
+
+.exeter img {
+    position: absolute;
+    border: solid black;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+#exeter_map {
+    margin-left: 33%;
+    position: absolute;
+    border: solid black;
+    max-width: 600px;
+    max-height: 600px;
+}
+
+#black_marker {
+    height: 40px; 
+    display: none; 
+    position: absolute;
+}
+
+#add_visit {
+    left: 25%;
+}
+
+#Add {
+    position: absolute;
+    text-align: center;
+    padding: 10px 104px 10px 104px;
+    left: 25%;
+    box-sizing: border-box;
+}
+
+#Cancel {
+    position: absolute;
+    text-align: center;
+    padding: 10px 90px 10px 90px;
+    box-sizing: border-box;
+    left: 25%;
+}
+
+#report_page {
+    text-align: center;
+}
+
+/*#window {
+    margin-top: 5%; 
+    margin-left: 3%; 
+    padding: 20px 230px 20px 230px; 
+    background-color: transparent;
+    font: 20pt 'Times New Roman';
+}*/
